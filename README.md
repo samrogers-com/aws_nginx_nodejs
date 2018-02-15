@@ -3,9 +3,11 @@ Author: Sam Rogers
 2017
 
 WORK IN PROGRESS
+POC ( Proof Of Consept ) Using Terraform for Infrastructure and Ansible for Configuration Management
 
 The goal of this project is to  create a configurable AWS VPC project 
-that allows provisioning a Nodejs web stack with Load Balancer service
+that allows provisioning a  Basic Nodejs web stack with Load Balancer service
+As as Bonus Nginx is also in a basic configuration
 
 
 ## Terraform
@@ -26,7 +28,10 @@ Below is a list of the Terraform modules.
   4. securitygroups.tf:
     -  Setting up the:
 	Security Groups
-  5. ec2-machines.tf:
+  5. load-ballancer.tf:
+    -  Setting up the:
+	ELB for the EC2 web servers.
+  6. ec2-machines.tf:
     -  Setting up the:
 	Create EC2 Instance(s)
 		create or add to aws_hosts file as the instance get created.
@@ -35,7 +40,7 @@ Below is a list of the Terraform modules.
 
 To Do list
 
-  1. load-balancer.tf
+  1. load-balancer.tf [* Done ]
   1. autoscaling.tf	
   
 ## Playbooks available
