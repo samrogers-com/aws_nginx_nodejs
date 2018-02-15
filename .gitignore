@@ -1,0 +1,11 @@
+#Ansible
+*.retry
+
+#Terraform
+terraform-localip.tfvars
+
+#TextMate
+*.tmproj
+*.tmproject
+tmtags
+
