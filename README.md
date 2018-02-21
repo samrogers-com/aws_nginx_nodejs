@@ -1,4 +1,4 @@
-# A COMPLETE AWS ENVIRONMENT WITH TERRAFORM and Ansible
+# A Complete AWS Environment: NodeJS/Nginx w/loadbalancer using Terraform and Ansible
 Author: Sam Rogers
 2017
 
@@ -6,8 +6,16 @@ WORK IN PROGRESS
 POC ( Proof Of Consept ) Using Terraform for Infrastructure and Ansible for Configuration Management
 
 The goal of this project is to  create a configurable AWS VPC project 
-that allows provisioning a  Basic Nodejs web stack with Load Balancer service
-As as Bonus Nginx is also in a basic configuration
+that allows provisioning of a complete VPC infrastructure:
+*   VPC
+    *   Availablity Zone(s)
+    *   Internet Gateway
+    *   Network ACL
+    *   Route Table
+    *   Subnets
+    *   Security Groups
+    
+This also include a ELB loadbalancer with three Basic Nodejs (Centos 7) web stack using Nginx and NodeJS
 
 
 ## Terraform
