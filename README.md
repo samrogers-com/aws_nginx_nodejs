@@ -3,7 +3,7 @@ Author: Sam Rogers
 2017
 
 WORK IN PROGRESS
-POC ( Proof Of Consept ) Using Terraform for Infrastructure and Ansible for Configuration Management
+POC ( Proof Of Consept ) Using Terraform for Infrastructure and Ansible for Configuration Management.
 
 The goal of this project is to  create a configurable AWS VPC project 
 that allows provisioning of a complete VPC infrastructure:
